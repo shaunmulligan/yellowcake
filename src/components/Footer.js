@@ -10,10 +10,9 @@ export default () => (
     <br />
     <footer className="footer">
       <div className="container taCenter">
-//         <span>
-//           © Copyright {new Date().getFullYear()} All rights reserved. Crafted by{' '}
-//           <a href="https://thriveweb.com.au/">Thrive</a>.
-//         </span>
+        <span>
+          © Copyright {new Date().getFullYear()} All rights reserved.
+        </span>
       </div>
     </footer>
   </div>
