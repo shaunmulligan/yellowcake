@@ -66,8 +66,8 @@ class Form extends React.Component {
           name={name}
           action={action}
           onSubmit={this.handleSubmit}
-          data-netlify-recaptcha="true" 
-          data-netlify="true"
+          data-netlify=""
+          netlify-recaptcha=""
         >
           {this.state.alert && (
             <div className="Form--Alert">{this.state.alert}</div>
@@ -150,7 +150,18 @@ class Form extends React.Component {
             />
             <span>Message</span>
           </label>
-          <div data-netlify-recaptcha="true"></div>
+          <label className="Form--Label Form-Checkbox">
+            <input
+              className="Form--Input Form--Textarea Form--CheckboxInput"
+              name="newsletter"
+              type="checkbox"
+            />
+            <span>Get news updates</span>
+          </label>
+          <div
+            className="g-recaptcha"
+            data-sitekey="6LfKN3kUAAAAAGIM1CbXmaRZx3LIh_W2twn1tzkA"
+          />
           {!!subject && <input type="hidden" name="subject" value={subject} />}
           <input type="hidden" name="form-name" value={name} />
           <input
