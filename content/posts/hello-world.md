@@ -1,29 +1,26 @@
 ---
 template: SinglePost
-title: Red
-status: Featured / Published
-date: '2018-03-27'
-featuredImage: 'https://ucarecdn.com/94633346-778b-4474-8039-b18280ec73a3/'
-excerpt: >-
-  Etiam ac quam eget lectus venenatis ullamcorper sit amet non arcu. Nullam
-  interdum arcu vitae augue pulvinar sodales. Sed non dui diam. Quisque lectus
-  est, lobortis ac efficitur vitae, posuere a mauris. Phasellus ac dui
-  pellentesque, lacinia risus ut, imperdiet eros.
+title: My 2021 Events Schedule
+status: Draft
+date: 2018-03-27
+featuredImage: https://ucarecdn.com/1659f8c1-e1a5-46e9-ab66-1150ad50291e/
+excerpt: The plan for 2021 is probably the biggest race year I have ever planned
+  (assuming events actually happen). There is a race across the country, some
+  triathlon and a few pure runs. Might even try my hand at a swim-run who knows
+  :)
 categories:
   - category: News
 meta:
-  canonicalLink: ''
+  canonicalLink: ""
   description: test meta description
   noindex: false
   title: test meta title
 ---
 Paragraphs are separated by a blank line.
 
-![Test Image](https://ucarecdn.com/ac9898a0-413a-467b-95fa-0a9959c30710/)
+![Winding road in CENTRAL PYRENEES](https://ucarecdn.com/538cd3a4-c823-4913-bba3-20cffb890328/)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Id64silK_7M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-The second paragraph. This is placeholder text that our web designers put here to make sure words appear properly on your website. _Italic_, **bold**, and `monospace`.
+The second paragraph. This is placeholder text that our web designers put here to make sure words appear properly on your website. *Italic*, **bold**, and `monospace`.
 
 ### Unordered lists:
 
