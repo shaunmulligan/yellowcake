@@ -1,5 +1,5 @@
 ---
 template: BlogIndex
-title: Hoodlum
-subtitle: A hood mounted controller for zwift
+title: zwiftendo
+subtitle: A bar mounted controller for Zwift
 ---
