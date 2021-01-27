@@ -9,14 +9,14 @@ excerpt: The plan for 2021 is probably the biggest race year I have ever planned
   triathlon and a few pure runs. Might even try my hand at a swim-run who knows
   :)
 categories:
-  - category: News
+  - category: Events
 meta:
   canonicalLink: ""
   description: test meta description
   noindex: false
   title: test meta title
 ---
-2021 is gearing up to be a doozy, assuming the covid-19 actually allows us to see other humans in the near future. The year as its planned currently is a smattering of a triathlon, running and a massive unsupported cycle.
+2021 is gearing up to be a doozy, assuming this insane global pandemic actually allows us to see other humans in the near future. The year as its planned currently is a smattering of a triathlon, running and a massive unsupported cycle race.
 
 ### Transpyrenees - 26th June
 
