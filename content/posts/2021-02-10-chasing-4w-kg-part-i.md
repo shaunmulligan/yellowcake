@@ -3,6 +3,7 @@ template: SinglePost
 title: "Chasing 4W/kg: Part I"
 status: Published
 date: 2021-02-10
+featuredImage: https://ucarecdn.com/a5b3af57-423b-40ee-9e9a-5850d9dad76a/
 excerpt: The first part in a series of post on cracking the 4 watts per Kilogram
   barrier for cycling.
 categories:
