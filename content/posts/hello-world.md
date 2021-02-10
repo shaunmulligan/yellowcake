@@ -5,16 +5,15 @@ status: Draft
 date: 2021-01-27
 featuredImage: https://ucarecdn.com/1659f8c1-e1a5-46e9-ab66-1150ad50291e/
 excerpt: The plan for 2021 is probably the biggest race year I have ever planned
-  (assuming events happen). There is a race across the country, some
-  triathlon and a few pure runs. I might even try my hand at a swim-run who knows
-  :)
+  (assuming events happen). There is a race across the country, some triathlon
+  and a few pure runs. I might even try my hand at a swim-run who knows :)
 categories:
   - category: Events
 meta:
   canonicalLink: ""
-  description: test meta description
+  description: ""
   noindex: false
-  title: test meta title
+  title: Events
 ---
 2021 is gearing up to be a doozy, assuming this insane global pandemic allows us to see other humans in the near future. The year as it stands is a smattering of triathlon, running, and a massive unsupported cycle race.
 
