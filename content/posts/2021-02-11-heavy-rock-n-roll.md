@@ -3,7 +3,7 @@ template: SinglePost
 title: Indoor Rock n' Roll
 status: Published
 date: 2021-02-11
-featuredImage: https://ucarecdn.com/ec6cb5fe-6411-4422-a83d-9d8a726eb996/-/crop/351x233/0,0/-/preview/
+featuredImage: https://ucarecdn.com/ec6cb5fe-6411-4422-a83d-9d8a726eb996/-/crop/351x151/0,0/-/preview/
 excerpt: Building a "smart" rocker plate for my indoor cycling setup.
 categories:
   - category: Ultimate Cycling Cave
