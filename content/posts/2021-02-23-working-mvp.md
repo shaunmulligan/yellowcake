@@ -5,6 +5,8 @@ status: Published
 date: 2021-02-23
 featuredImage: https://ucarecdn.com/4fa841aa-5fe1-46b7-89e5-461d1fe8c5b5/-/crop/1089x558/0,0/-/preview/
 excerpt: An update on my Zwiftendo project. Showing off the working MVP with a demo.
+categories:
+  - category: zwiftendo
 ---
 Finally got around to putting the Minimal Viable Product (MVP) together for the Zwiftendo to test the features out and see how the UX feels with the buttons and blackberry-esque trackball. Its not beautiful but it works! You can see the hackery below:
 
@@ -22,4 +24,16 @@ Finally, the whole thing is powered from a 3.7v 1200mah LiPo battery and its set
 
 ### Issues and UX:
 
+If you watched the demo you might have noticed a few issues. One being that my gears sound a bit janky and yes I definitely need to put some time into sorting that. You also might have noticed that some of the button presses were not detected, I think this is because currently its programmed to be just a dumb loop scanning through all the buttons each loop and then sleeping for a bit of time. So if you happen to press during the sleep portion or while other buttons are being checked, then you are shit out of luck!
+
+Another problem UX wise is with the trackball. Its much more clumsy and difficult to use than I expected it to be. So even though it looks cool and I love the central RGB led, I'm gonna try replace it with something more akin to a thumb controller. 
+
+Finally, I also seem to have some heisenbug with the battery level detection and indication. It's a bit of a pain to try debug because it only happens when the battery is low and the serial cable is unplugged (so that its not charging). Some part of that detection occasionally fails and throws the Zwiftendo into a boot loop. I haven't managed to get any logs yet but might have to find a way to persist the logs to the device so I can debug it since I can't use the serial.
+
 ### What's Next:
+
+So next up, I am gonna switch out the sketch button setup and trackball for this much neater Adafruit Joy Feather (pictured below). It looks like a great piece of kit. Unfortunately it doesn't seem to offer the ability to click the central control pad, so I might have to move the "Enter/Return" button to one of the other buttons. I need to play around with it a bit and figure out what will be the most intuitive. 
+
+![](https://ucarecdn.com/7f3e96e6-e89f-4547-994b-4507b141329f/ "Adafruit Joy Feather")
+
+Overall I think it will lead to a much neater package. I'm also going to wire a little slide switch into the power line of the battery to allow powering down the device. Once that is all fully tested and we are happy with the new UX, I'll start putting together the design for the 3D printed enclosure. The plan is to have small controller box that is mounted out the front of my Garmin head unit and clips into the underside of the Garmin mount. However, there is still a bit to explore design wise on that side of things...
