@@ -1,0 +1,6 @@
+ports:
+  - port: 80
+  
+tasks:
+  - init: npm install
+    command: npm run start
