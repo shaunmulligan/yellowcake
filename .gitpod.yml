@@ -1,8 +1,5 @@
 ports:
   - port: 80
-  - onOpen: open-preview
-  - port: 8000
-  - onOpen: open-browser
   
 tasks:
   - init: npm install
