@@ -2,7 +2,7 @@
 template: HomePage
 slug: ""
 title: The Endurance Engineer
-featuredImage: https://ucarecdn.com/994c89d6-62b4-43f2-87e6-38ba360407fa/
+featuredImage: https://ucarecdn.com/8e244e1c-afc5-43f7-b0cd-3030404b8073/
 subtitle: " Cycling, bro-science and electronics."
 meta:
   description: This is a meta description.
