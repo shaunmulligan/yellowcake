@@ -6,6 +6,8 @@ date: 2022-09-20
 excerpt: I love all the tech that goes into products like the Garmin 530 and
   Hammerhead Karoo, so I decided to try build my own one using a raspberry pi.
   How hard could it be?
+categories:
+  - category: hypeCycle
 ---
 I love all the tech that goes into products like the Garmin 530 and Hammerhead Karoo, so I decided to try build my own one using a raspberry pi. How hard could it be?
 
